@@ -1,0 +1,171 @@
+%------------------------
+% Resume Template
+% Author : Anubhav Singh
+% Github : https://github.com/xprilion
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{ragged2e}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+\justifying
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Andrew Tate }} & Email: \href{mailto:}{andrewtate@gmail.com}\\
+  \href{https://hackerrank.com/random_coder}{Leetcode}~~~\href{https://hackerrank.com/random_coder}{Linkedin}~~~\href{https://hackerrank.com/random_coder}{Github }, India & Mobile:~~~+91-7XXXXXXXX \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {XYZ  Engineering College}{city, India}
+      { \textbf{Bachelor} of Technology in \textbf{Computer Science}  CGPA: \textbf{8.26}}{Aug 2019 - June 2023}
+	\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Experience}
+  \resumeSubHeadingListStart
+\resumeSubheading{XYZ Tech Solutions}{}
+{SOFTWARE ENGINEER}{June 2023}
+\resumeItemListStart
+\item {Currently working as a \textbf{Backend Engineer} on the \textbf{Innovation Team}, specializing in \textbf{Node.js, Express, and MongoDB}, leveraging integrator.io hooks within the \textbf{Zypher platform}. Achieved an impressive \textbf{60 percent} reduction in operational time by optimizing streamlining processes significantly. Utilized \textbf{Postman} to retrieve dummy \textbf{JSON} data through \textbf{APIs}.}
+\item {Successfully resolved \textbf{60 percent} of errors through meticulous analysis of dummy \textbf{developer logs}, ensuring smooth integration flow operations. Proficiently delivered data to platforms like \textbf{Shopify, Magento, and BigCommerce APIs} through Zypher, enhancing \textbf{data extraction} and implementation in \textbf{Tech 2.0}.}
+\resumeItemListEnd
+
+
+\resumeSubheading{Company 2}{}
+{SOFTWARE ENGINEER }{Aug 2022 - Dec 2022}
+\resumeItemListStart
+\item{Contributed to the development of a \textbf{customer relationship management (CRM)} system using \textbf{Node.js, React, and MongoDB}, enhancing client communication and satisfaction.Collaborated with cross-functional teams to design and implement new features, resulting in a 20 percent improvement in user engagement.}
+\item{Implemented robust \textbf{RESTful APIs} to facilitate seamless communication between the front-end and back-end systems.}
+\resumeItemListEnd
+
+\vspace{-5pt}
+\section{Skills }
+	\resumeSubHeadingListStart
+	\resumeSubItem{Technical Skills}{ all tech stacks u know}
+ \resumeSubItem{Soft Skills}{}
+\resumeSubItem{Course work}{CS FUNDAMENTALS}
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+\vspace{2pt}
+
+\resumeSubItem{PROJECT ZEPHYR
+\textbf{\href{https://whispering-wind-zephyr.app/}{[Live]}} \textbf{\href{https://github.com/randomuser12345/zephyr_project}{[Github]}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+{~\textbf{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ABOUT:} Zephyr Project is a \textbf{blockchain-based}  \textbf{food delivery} platform that enables users to \textbf{create recipes, post reviews}, and participate in  \textbf{culinary communities}. It offers secure authentication through ~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~ ~~~~~~~~~~~
+~\textbf{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~- IMPACT AND FEATURES:}I've cultivated an active user base  \textbf{exceeding 500}, fostering vibrant culinary discussions and strong community bonds. My standout achievement was introducing the  \textbf{innovative Recipe Book} feature using  \textbf{Firebase Cloud Functions}, setting it apart from the main Zephyr Project. This addition greatly  \textbf{elevated user engagement} and  \textbf{community growth} 
+~~~~~~~~~~~~~~~~~~~~~~~\textbf{
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  TECH TECH STACK}: \textbf{PostgreSQL, Python, Nuxt.js, Vue JS, and Ruby}}
+\vspace{2pt}
+
+\resumeSubItem{VIRTUAL REALITY EXPERIENCE~(DREAMSCAPE)\textbf{\href{https://randomuser12345.github.io/dreamscape/}{[Live}}
+\textbf{\href{https://github.com/randomuser12345/dreamscape}{ Github]}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+{\textbf{ABOUT:} I developed and deployed an immersive web application on GitHub that provides a captivating\textbf{ virtual reality }experience, featuring surreal landscapes, interactive elements, \textbf{top VR experiences}, and \textbf{news updates}
+\textbf{ImIMPACT AND FEATURES:} My application ensures an engaging user journey by leveraging advanced technologies such as \textbf{A-Frame, Three.js, and WebVR.} Notably, I introduced an exciting \textbf{feature} that showcases the \textbf{latest VR trends} and \textbf{upcoming releases}, along with their associated \textbf{developer communities}. This enhancement provides users with a \textbf{cutting-edge} exploration of the virtual reality landscape.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\textbf{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~TECH TECH STACK:} \textbf{HTML, CSS, A-Frame, Three.js, JavaScript}}
+
+
+
+%-----------Awards-----------------
+\section{ACHIEVEMENTS}
+\begin{description}[font=$\bullet$]
+% \justifying
+\item \textbf{Ranked 189/3000} in May coding contest by XYZ
+\item \textbf{Ranked 189/3000} in May coding contest by XYZ
+\item \textbf{Ranked 189/3000} in May coding contest by XYZ
+\item \textbf{Ranked 189/3000} in May coding contest by XYZ
+\item \textbf{Ranked 189/3000} in May coding contest by XYZ
+\item \textbf{Ranked 189/3000} in May coding contest by XYZ
+\item \textbf{Ranked 189/3000} in May coding contest by XYZ
+\item \textbf{Ranked 189/3000} in May coding contest by XYZ
+\end{description}
+
+\vspace{-5pt}
+\section{EXTRA CURRICULUM ACTIVITIES}
+\resumeSubHeadingListStart
+
+\resumeSubItem{FOUNDER OF XYZ~~~~\textbf{\href{https://t.me/randominnovation}{ Link}}
+\textbf{\href{}{}}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+{ - Established \textbf{SparkNexus}, an innovative hub for disruptive tech ideas and collaborations, connecting \textbf{enthusiasts} and \textbf{experts} globally.
+- Nurtured a vibrant \textbf{Telegram} community of \textbf{420+ members}, fostering a creative space for ideation, brainstorming, and \textbf{tech discussions}.
+}
+\vspace{2pt}
+\resumeItemListEnd
+
+      \end{document}
